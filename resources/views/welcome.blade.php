@@ -3,7 +3,7 @@
 @section('main-content')
     <div class="card-container d-flex flex-wrap">
         @foreach($movies as $movie)
-            <div class="card m-3" style="width: calc(100% / 5 - 2rem);">
+            <div class="card m-3" style="width: calc(100% / 5 - 1rem);">
                 <div class="card-body">
                     <h2>Titolo: {{ $movie['title'] }}</h2>
                     <h3>Titolo originale: {{ $movie['original_title'] }}</h3>
