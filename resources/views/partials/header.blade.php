@@ -1,5 +1,5 @@
 <header>
     <h1>
-        This is the header
+        Film Vue
     </h1>
 </header>
