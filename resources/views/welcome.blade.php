@@ -5,11 +5,11 @@
         @foreach($movies as $movie)
             <div class="card m-3" style="width: calc(100% / 5 - 2rem);">
                 <div class="card-body">
-                    <h2>Title: {{ $movie['title'] }}</h2>
-                    <h3>Original title: {{ $movie['original_title'] }}</h3>
-                    <p>Nationality: {{ $movie['nationality'] }}</p>
-                    <p>Release date: {{ $movie['date'] }}</p>
-                    <p>Vote: {{ $movie['vote'] }}</p>
+                    <h2>Titolo: {{ $movie['title'] }}</h2>
+                    <h3>Titolo originale: {{ $movie['original_title'] }}</h3>
+                    <p>Nazionalità: {{ $movie['nationality'] }}</p>
+                    <p>Data di rilascio: {{ $movie['date'] }}</p>
+                    <p>Voto: {{ $movie['vote'] }}</p>
                 </div>
             </div>
         @endforeach
